@@ -1,0 +1,50 @@
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+        <meta name="apple-mobile-web-app-title" content="" />
+
+        <meta name="title" content="__PAGE_TITLE__" />
+        <meta name="description" content="__PAGE_DESC__" />
+
+        <meta property="fb:app_id" content="339904503154161" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="__PAGE_TITLE__" />
+        <meta property="og:description" content="__PAGE_DESC__" />
+        <meta property="og:image" content="__PAGE_IMAGE__" />
+
+        <meta property="al:ios:url" content="__IOS_URL__" />
+        <meta property="al:ios:app_store_id" content="1281535124" />
+        <meta property="al:ios:app_name" content="Ô-Mart" />
+
+        <meta property="al:android:url" content="__ANDROID_URL__" />
+        <meta property="al:android:app_name" content="Ô-Mart" />
+        <meta property="al:android:package" content="vn.com.omart.client" />
+    </head>
+
+<body>
+
+<script src="https://o-mart.com.vn/mobile-detect.js"></script>
+
+<script>
+function checkOS() {
+    var md = new MobileDetect(window.navigator.userAgent);
+
+    if (md.is('iOS')) {
+        window.location = "omart://timeline/__TIMELINE_ID__";
+    } else if (md.os('AndroidOS')) {
+        window.location = "intent://timeline/__TIMELINE_ID__#Intent;scheme=omart;package=vn.com.omart.client;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dvn.com.omart.client;end";
+    } else {
+        window.location = "https://o-mart.com.vn/timeline";
+    }
+}
+
+window.onload = checkOS;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+ALTER TABLE `omart_category` ADD COLUMN `parent_id` int(11) DEFAULT NULL AFTER `id`;
+
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Nhà Hàng', 'http://via.placeholder.com/300x300', 'Thực đơn', 0);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Cà Phê', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Quán Chay', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Quán Nhậu', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Quán ĂN', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Buffet', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Quán Cơm', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (1, 'Beer Club', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (2, 'Quần Jean', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (2, 'Áo sơ mi', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (3, 'Áo thun', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (3, 'Áo sơ mi', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (4, 'Điện thoại', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (4, 'Máy tính', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (4, 'Phụ kiện', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (4, 'Máy ảnh', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (5, 'Giày', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (5, 'Balo', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);
+INSERT INTO `omart_db`.`omart_category`(`parent_id`, `name`, `image`, `item_tab_name`, `is_item_detail`) VALUES (5, 'Đồ Gym', 'http://via.placeholder.com/300x300', 'Sản phẩm', 1);

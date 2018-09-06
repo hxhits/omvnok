@@ -1,0 +1,7 @@
+-- MAC OS --
+1. Install STS
+2. Copy STS to Applications
+3. Download lombok from https://projectlombok.org/download
+4. Run lombok.jar
+5. Install and Choise IDE at Aplications/STS
+6. Restart STS

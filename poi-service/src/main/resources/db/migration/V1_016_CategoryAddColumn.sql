@@ -1,0 +1,1 @@
+ALTER TABLE `omart_category` ADD COLUMN `sub_description` varchar(600) DEFAULT '';

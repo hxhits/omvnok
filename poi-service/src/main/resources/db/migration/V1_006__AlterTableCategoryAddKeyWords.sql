@@ -1,0 +1,1 @@
+ALTER TABLE `omart_category` ADD COLUMN `keywords` varchar(355) DEFAULT NULL ;
